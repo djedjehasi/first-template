@@ -28,7 +28,7 @@ header {
 
 .logo {
     color: #f9faf8;
-    font-size: 42px;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -47,4 +47,59 @@ li a {
     color: #f9faf8;
     text-decoration: none;
     font-size: 18px;
+}
+
+.hero {
+    background-color: #1f2937;
+    flex: 1 1 auto;
+}
+
+.hero-c {
+    display: flex;
+    height: 300px;
+    flex: 1 1 0;
+    gap: 50px;
+}
+
+.title{
+   color:#f9faf8;
+   width: 50%;
+   display: flex;
+   flex-flow: column;
+   align-items: flex-start;
+}
+
+.title h1 {
+    font-size: 42px;
+}
+
+.title p {
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.title button {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 7px 20px;
+    color:#f9faf8;
+    border: none;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.img {
+    flex: 1 1 0;
+    width: 50%;
+    display: block;    
+}
+
+.img img {
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: #f9faf8;
+    height: 180px;
+    
 }
