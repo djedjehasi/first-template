@@ -86,6 +86,7 @@ li a {
     border: none;
     font-weight: bold;
     margin-top: 16px;
+    font-size: 14px;
 }
 
 .img {
@@ -95,11 +96,18 @@ li a {
 }
 
 .img img {
-    margin: 0 auto;
     display: block;
-    margin: 0 auto;
-    border-radius: 6px;
     background-color: #f9faf8;
-    height: 180px;
-    
+    height: 250px;
+    width:300px;
+    margin-left: auto;
+}
+
+.serv-c {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-c {
+    display: flex;
 }
