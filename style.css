@@ -20,10 +20,14 @@ header {
     display: flex;
     margin: 0 10%;
     align-items: center;
+    padding: 50px 0;
 }
 
 .header {
     height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
 }
 
 .logo {
@@ -54,12 +58,6 @@ li a {
     flex: 1 1 auto;
 }
 
-.hero-c {
-    display: flex;
-    height: 300px;
-    flex: 1 1 0;
-    gap: 50px;
-}
 
 .title{
    color:#f9faf8;
@@ -71,11 +69,14 @@ li a {
 
 .title h1 {
     font-size: 42px;
+    flex: 1 1 auto;
+    margin: 10px 0;
 }
 
 .title p {
     flex-wrap: wrap;
     margin: 10px 0;
+    flex:1 1 auto;
 }
 
 .title button {
@@ -85,8 +86,9 @@ li a {
     color:#f9faf8;
     border: none;
     font-weight: bold;
-    margin-top: 16px;
+    margin-top: 16px; 
     font-size: 14px;
+    flex: 1 1 0;
 }
 
 .img {
@@ -103,11 +105,62 @@ li a {
     margin-left: auto;
 }
 
-.serv-c {
+
+.serv .container {
     display: flex;
     flex-direction: column;
 }
 
+.serv .container h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+
 .icon-c {
     display: flex;
+    gap: 30px;
+    
+}
+
+.icon-b {
+    width: 170px ;
+    height: 170px;
+    border: 5px solid #3882f6;
+    border-radius: 6px;
+}
+
+.icon-col {
+    width: 170px;
+    flex-wrap: warp;
+}
+
+.icon-col p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .container p i {
+    font-size: 22px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: auto;
+    margin-top: 15px;
+    color: #1f2937;
 }
